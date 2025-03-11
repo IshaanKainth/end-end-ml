@@ -45,7 +45,7 @@ class DataIngestion:
 
             )
         except Exception as e:
-            raise MyException(e,sys)
+            raise MyException(e)
         
 if __name__=="__main__":
     obj=DataIngestion()

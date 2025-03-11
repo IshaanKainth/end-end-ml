@@ -1,6 +1,6 @@
 import traceback   
 import sys
-from logger import logging
+from src.logger import logging
 
 class MyException(Exception):
     def __init__(self, message):            
